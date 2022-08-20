@@ -101,12 +101,12 @@ main li {
 
 .content h3 {
   width: 295px;
-  height: 55px;
+  height: 36px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 30px;
+  line-height: 44px;
   color: #172b4d;
   margin: 12px 0;
 }
@@ -234,6 +234,8 @@ button:active {
   flex-direction: column;
   width: 375px;
   background: #fff;
+  display: flex;
+  border-top-right-radius: 80px;
   margin-top: 114px;
 }
 
@@ -306,6 +308,6 @@ h2 {
   line-height: 20px;
 }
 
-.hg li { border-bottom: #dfe1e6 1px solid; 
+.hg li {
+  border-bottom: #dfe1e6 1px solid;
 }
-····
