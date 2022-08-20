@@ -21,44 +21,45 @@ a {
 }
 
 main {
-    position: absolute;
-    background-color: #fff;
-    background-image: url("../img/mobile.png");
-    background-repeat: no-repeat;
-    margin: 1.625rem 0;
-    height: 36.697rem;
-    border-bottom-left-radius: 80px;
-  
+  position: absolute;
+  background-color: #fff;
+  background-image: url("../img/mobile.png");
+  background-repeat: no-repeat;
+  margin: 1.625rem 0;
+  height: 36.697rem;
+  border-bottom-left-radius: 80px;
 }
-h1 {height: 9.375rem;
-    width: 15rem;
-    margin: 3rem 1.2rem;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 52px;
-    font-family: 'Poppins';
-    font-size: 32px;
-    Top: 114px;
-    Left: 24px;
-  }
 
-  main p {
-    width: 20.438rem;
-    margin: 0 1.5rem;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-  
-    /* or 150% */
-  
-    color: #344563;
-  }
-  h5{
+h1 {
+  height: 9.375rem;
+  width: 15rem;
+  margin: 3rem 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  font-size: 32px;
+  top: 114px;
+  left: 24px;
+}
+
+main p {
+  width: 20.438rem;
+  margin: 0 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+
+  color: #344563;
+}
+
+h5 {
   margin: 0.75rem 1.5rem;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -67,17 +68,18 @@ h1 {height: 9.375rem;
   width: 7.313rem;
   height: 1.5rem;
 }
+
 ul {
-    list-style-type: none;
-  }
-  
-  main ul {
-    width: 9.75rem;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 1.5rem;
-  }
-  
-  main li {
-    margin-left: 0;
-  }
+  list-style-type: none;
+}
+
+main ul {
+  width: 9.75rem;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+main li {
+  margin-left: 0;
+}
