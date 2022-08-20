@@ -231,6 +231,8 @@ button:active {
 }
 
 #about-me {
+  display: flex;
+  justify-content: space-between;
   flex-direction: column;
   width: 375px;
   background: #fff;
@@ -309,5 +311,7 @@ h2 {
 }
 
 .hg li {
+  
   border-bottom: #dfe1e6 1px solid;
-}
+} 
+  
