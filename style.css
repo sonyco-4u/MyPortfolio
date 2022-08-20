@@ -234,7 +234,6 @@ button:active {
   flex-direction: column;
   width: 375px;
   background: #fff;
-  border-top-right-radius: 80px;
   margin-top: 114px;
 }
 
@@ -309,3 +308,4 @@ h2 {
 
 .hg li { border-bottom: #dfe1e6 1px solid; 
 }
+····
