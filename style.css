@@ -27,7 +27,8 @@ a {
 main {
   position: relative;
   background-color: #fff;
-  background-image: url("../img/mobile.png"); 
+  background-image: url("../img/mobile.png");
+  
   background-repeat: no-repeat;
   margin: 1.625rem 0;
   height: 36.697rem;
