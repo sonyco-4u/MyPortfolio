@@ -231,7 +231,6 @@ button:active {
 }
 
 #about-me {
-  display: flex;
   justify-content: space-between;
   flex-direction: column;
   width: 375px;
@@ -310,8 +309,5 @@ h2 {
   line-height: 20px;
 }
 
-.hg li {
-  
-  border-bottom: #dfe1e6 1px solid;
-} 
-  
+.hg li { border-bottom: #dfe1e6 1px solid; }
+\n
