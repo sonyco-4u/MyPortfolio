@@ -58,7 +58,7 @@ main p {
   color: #344563;
 }
 
-h5 {
+h4 {
   margin: 0.75rem 1.5rem;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -99,14 +99,14 @@ main li {
   height: 80px;
 }
 
-.content h4 {
+.content h3 {
   width: 295px;
-  height: 36px;
+  height: 55px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 44px;
+  line-height: 30px;
   color: #172b4d;
   margin: 12px 0;
 }
