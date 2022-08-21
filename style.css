@@ -95,14 +95,14 @@ main li {
   margin-top: 248px;
   margin-right: 16px;
   margin-left: 16px;
-  margin-bottom: 12px;
-  height: 80px;
+  margin-bottom: 25px;
+  height: 95px;
 }
 
 .content h3 {
   width: 295px;
-  height: 36px;
-  font-family: "Poppins", sans-serif;
+  height: 80px;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -234,7 +234,6 @@ button:active {
   flex-direction: column;
   width: 375px;
   background: #fff;
-  display: flex;
   border-top-right-radius: 80px;
   margin-top: 114px;
 }
