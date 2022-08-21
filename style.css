@@ -234,6 +234,7 @@ button:active {
   flex-direction: column;
   width: 375px;
   background: #fff;
+  display: flex;
   border-top-right-radius: 80px;
   margin-top: 114px;
 }
