@@ -102,7 +102,7 @@ main li {
 .content h3 {
   width: 295px;
   height: 80px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
