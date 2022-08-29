@@ -170,11 +170,11 @@ main li {
   color: #6070ff;
   border-radius: 8px;
   padding: 6px 12px;
-  align-items: center;
+  float: left;
 }
-.ocontent{
+.block{
   display: block;
-  width: 100%;
+  width:inherit;
 }
 
 .grid-item p {
