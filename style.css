@@ -170,7 +170,11 @@ main li {
   color: #6070ff;
   border-radius: 8px;
   padding: 6px 12px;
-  align-items: center;
+  float: left;
+}
+
+.block {
+  display: block;
 }
 
 .grid-item p {
