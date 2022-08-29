@@ -1,4 +1,5 @@
 # This file should be ignored by git
- test.md
- node_modules
- .vscode/
+test.md
+node_modules
+.vscode/
+.gitignore
