@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <nav>
+          <a href="#">Tuzy Orizu</a
+          ><a><img src="img/Icons/Union.png" alt="" /></a>
+        </nav>
+        <h1>I’m Tochukwu Glad to see you!</h1>
+        <p>
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact
+          me.
+        </p>
+        <h5>LET’S CONNECT</h5>
+        <ul class="flex">
+          <li><img src="img/Icons/Twitter.png" alt="Twitter Icon" /></li>
+          <li><img src="img/Icons/Linkedin-icon.png" alt="Linkedin-icon" /></li>
+          <li><img src="img/Icons/M.png" alt="M icon" /></li>
+          <li><img src="img/Icons/Github.png" alt="Github Icon" /></li>
+          <li><img src="img/Icons/hands.png" alt="hands" /></li>
+        </ul>
+      </main>
+
+
+
+
+
+
+ background-color: #e5e5e5;
+}
+
+header {
+  background-color: #fff;
+}
+
+main nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1.5rem;
+  background-color: #fff;
+  background-size: 100vw;
+}
+
+.flex {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  background-color: #fff;
+  background-image: url("../img/header-shapes-mobile.png");
+  background-repeat: no-repeat;
+  margin: 1.625rem 0;
+  height: 36.697rem;
+  border-bottom-left-radius: 80px;
+  background-size: 100vw;
+}
+
+h1 {
