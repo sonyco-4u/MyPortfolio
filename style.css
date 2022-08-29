@@ -172,6 +172,10 @@ main li {
   padding: 6px 12px;
   align-items: center;
 }
+.ocontent{
+  display: block;
+  width: 100%;
+}
 
 .grid-item p {
   font-family: "Poppins", sans-serif;
