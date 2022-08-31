@@ -1,19 +1,18 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   background-color: #e5e5e5;
-  width: 389px;
+  width: 100%;
 }
 
 header {
   background-color: #fff;
-}
-
-main nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;padding: 0 1.5rem;
   align-items: center;
-  margin: 0 1.5rem;
-  background-color: #fff;
-  background-size: 100vw;
 }
 
 .flex {
@@ -24,7 +23,7 @@ a {
   text-decoration: none;
 }
 
-main {
+#introduction {
   position: relative;
   background-color: #fff;
   background-image: url("../img/mobile.png");
@@ -88,7 +87,7 @@ main li {
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-  width: 375px;
+  width: 95%;
 }
 
 .content {
@@ -126,7 +125,7 @@ main li {
   order: 1;
   flex-grow: 0;
   margin: 12px 16px;
-  width: 327px;
+  width: auto;
   height: 552px;
 }
 
@@ -234,7 +233,7 @@ button:active {
 
 #about-me {
   flex-direction: column;
-  width: 375px;
+  width: 100%;
   background: #fff;
   border-top-right-radius: 80px;
   margin-top: 114px;
@@ -314,9 +313,11 @@ h2 {
 }
 
 #contact-Form {
+  background-color: #fff;
   background-image: url(img/Background-Contact-Form.png);
   background-repeat: no-repeat;
   padding: 0 10%;
+  background-size: cover;
 }
 
 .background1 {
@@ -360,11 +361,11 @@ flex-direction: column;
   
   color: #EBEBFF;
   align-self: center;
+  margin-bottom: 10%;
 }
 
 .contact4 {
-top: 4734px;
-
+margin-bottom: 1%;
 /* Header / 2 */
 
 font-family: 'Poppins';
@@ -378,6 +379,6 @@ margin-top: 30%;
 
 /* Neutrals/N0 */
 
-color: #FFFFFF;
+color: #fff;
 }
 
