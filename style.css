@@ -172,7 +172,9 @@ main li {
   padding: 6px 12px;
   align-items: center;
 }
-
+.block {
+  display: block;
+}
 .grid-item p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -310,3 +312,53 @@ h2 {
 .hg li {
   border-bottom: #dfe1e6 1px solid;
 }
+
+#contact-Form {
+  background-image: url(img/Background-Contact-Form.png);
+  background-repeat: no-repeat;
+  padding: 0 10%;
+}
+
+.background1 {
+  background-image: url(img/contact-form.png);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.input1 {
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  
+}
+.column {
+flex-direction: column;
+}
+
+.message {
+  height: 170px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px; 
+}
+
+.text1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 2% 0;
+  /* or 140% */
+  
+  text-align: center;
+  
+  /* Primary/B50 */
+  
+  color: #EBEBFF;
+  align-self: center;
+}
+
+

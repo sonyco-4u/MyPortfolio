@@ -17,27 +17,31 @@
   </head>
   <body>
     <div class="container">
-      <main>
+      <header> 
+        <a href="#">Ezema Anthony</a>
         <nav>
-          <a href="#">Ezema Anthony</a>
-          <a><img src="img/Unionunioin.png" alt="" /></a>
-        </nav>      
-        <h1>I’m Anthony Glad to see you!</h1>
-        <p>
-          I’m a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hestiate to contact
-          me.
-        </p>
-        <h4>LET’S CONNECT</h4>
-        <ul class="flex">
-          <li><img src="icons/VectorTwitter.png" alt="Twitter Icon" /></li>
-          <li><img src="icons/Linkedin-icon.png" alt="Linkedin-icon" /></li>
-          <li><img src="icons/Vectoremail.png" alt="M icon" /></li>
-          <li><img src="icons/VectorGithub.png" alt="Github Icon" /></li>
-          <li><img src="icons/VectorThumbs-up.png" alt="hands" /></li>
-        </ul>
-      </main>
+          <img src="img/Unionunioin.png" alt="" />
+        </nav>
+      </header> 
+      <main> 
+        <section id="Introduction">   
+          <h1>I’m Anthony Glad to see you!</h1>
+          <p>
+            I’m a software developer! I can help you build a product , feature or
+            website Look through some of my work and experience! If you like what
+            you see and have a project you need coded, don’t hestiate to contact
+            me.
+          </p>
+          <h4>LET’S CONNECT</h4>
+          <ul class="flex">
+            <li><img src="icons/VectorTwitter.png" alt="Twitter Icon" /></li>
+            <li><img src="icons/Linkedin-icon.png" alt="Linkedin-icon" /></li>
+            <li><img src="icons/Vectoremail.png" alt="M icon" /></li>
+            <li><img src="icons/VectorGithub.png" alt="Github Icon" /></li>
+            <li><img src="icons/VectorThumbs-up.png" alt="hands" /></li>
+          </ul>
+        </section>    
+       
       <section id="recent-work" class="grid-container">
         <div class="grid-item show-case">
           <div class="content">
@@ -130,8 +134,8 @@
         </p>
         <h4>LET’S CONNECT</h4>
         <ul class="flex">
-          <li>
-            <a><img src="icons/VectorTwitter.png"  alt="Twitter Icon" /></a>
+          <li> 
+         <a><img src="icons/VectorTwitter.png"  alt="Twitter Icon" /></a>
           </li>
           <li>
             <a><img src="icons/Linkedin-icon.png" alt="Linkedin-icon" /></a>
@@ -168,6 +172,29 @@
           </li>
         </ul>
       </section>
+    
+      <section id="contact-Form">
+        <div class="flex background1 column">
+          <h3>contact me</h3>
+        <p class="text1">If you have an application you <br> are interested in developing, a <br>
+           feature that you need built or a <br>
+          project that needs coding. I'd <br>
+           love to help with it
+        </p>
+      <form action = "/cgi-bin/hello_get.cgi" method = "get">
+        <div class="flex column">
+          <input class="input1" type="name" id="myName" placeholder="Name" maxlength = "30"/> <br>
+          <input class="input1" type="email" id="myEmail" placeholder="Email"> <br> <br> 
+          <textarea class="message" id="comment" placeholder="Write Your Message here" maxlength = "500"></textarea> 
+          <br> <br> 
+          <button type="submit">Get it Touch</button>
+        </div>
+      </form>
+        </div>
+        
+        </section>
+      </section>
+    </main>
     </div>
   </body>
 </html>
