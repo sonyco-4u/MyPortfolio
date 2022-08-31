@@ -331,6 +331,7 @@ h2 {
   top: 0px;
   border: 1px solid #CFD8DC;
   border-radius: 8px;
+  margin-bottom: 5%;
   
 }
 .column {
@@ -361,4 +362,22 @@ flex-direction: column;
   align-self: center;
 }
 
+.contact4 {
+top: 4734px;
+
+/* Header / 2 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+align-self: center;
+margin-top: 30%;
+/* or 130% */
+
+/* Neutrals/N0 */
+
+color: #FFFFFF;
+}
 
