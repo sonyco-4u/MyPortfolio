@@ -7,13 +7,15 @@ header {
   background-color: #fff;
 }
 
-main nav {
+.main-nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 0 1.5rem;
+  align-items:flex-end;
+  margin: 0 20rem;
   background-color: #fff;
   background-size: 100vw;
+  margin-right: 90%;
+  align-self: flex-end;
 }
 
 .flex {
@@ -314,15 +316,24 @@ h2 {
 }
 
 #contact-Form {
-  background-image: url(img/Background-Contact-Form.png);
+  /* background-image: url(img/Background-Contact-Form.png); */
+  /* background-repeat: no-repeat; */
+  padding: 24px;
+  position: relative;
+  border-top-left-radius: 70px;
+  align-items: center;
+  background-color:  #6070FF;
+  color: #fff;
+  background-image: url(img/contact\ form\ shapes-mobileReal.png);
   background-repeat: no-repeat;
-  padding: 0 10%;
+  background-position: top 0 right 0;
+  margin: 1.625rem 0;
+
 }
 
 .background1 {
-  background-image: url(img/contact-form.png);
-  background-repeat: no-repeat;
-  width: 100%;
+  
+  color: #7f8cff;
 }
 
 .input1 {
@@ -331,7 +342,7 @@ h2 {
   top: 0px;
   border: 1px solid #CFD8DC;
   border-radius: 8px;
-  margin-bottom: 5%;
+  /* margin-bottom: 0.5%; */
   
 }
 .column {
@@ -352,6 +363,7 @@ flex-direction: column;
   font-size: 20px;
   line-height: 28px;
   padding: 2% 0;
+  margin-bottom: 3%;
   /* or 140% */
   
   text-align: center;
@@ -364,6 +376,8 @@ flex-direction: column;
 
 .contact4 {
 top: 4734px;
+margin-bottom: 10%;
+
 
 /* Header / 2 */
 
@@ -373,7 +387,7 @@ font-weight: 700;
 font-size: 40px;
 line-height: 52px;
 align-self: center;
-margin-top: 30%;
+margin-top: 20%;
 /* or 130% */
 
 /* Neutrals/N0 */
