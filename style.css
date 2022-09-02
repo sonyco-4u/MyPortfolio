@@ -1,6 +1,6 @@
 .container {
   /* background-color: #e5e5e5; */
-  width: 389px; 
+  width: 389px;
 }
 
 header {
@@ -12,32 +12,18 @@ header {
   font-size: 20px;
   font-weight: bold;
 }
-a{
-  color: #6070FF;
+
+a {
+  color: #6070ff;
 }
 
-.intro-description{
+.intro-description {
   padding-top: 6rem;
   font-size: 30px;
-  
 }
-
-/* .main-nav {
-  justify-content: space-between;
-  align-items:flex-end;
-  margin: 0 20rem;
-  background-color: #fff;
-  background-size: 100vw;
-  margin-right: 90%;
-  align-self: flex-end;
-} */
 
 .flex {
   display: flex;
-}
-
-a {
-  text-decoration: none;
 }
 
 main {
@@ -188,9 +174,11 @@ main li {
   padding: 6px 12px;
   align-items: center;
 }
+
 .block {
   display: block;
 }
+
 .grid-item p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -330,82 +318,80 @@ h2 {
 }
 
 #contact-Form {
-  /* background-image: url(img/Background-Contact-Form.png); */
-  /* background-repeat: no-repeat; */
   padding: 24px;
   position: relative;
   border-top-left-radius: 70px;
   align-items: center;
-  background-color:  #6070FF;
+  background-color: #6070ff;
   color: #fff;
   background-image: url(img/contact\ form\ shapes-mobileReal.png);
   background-repeat: no-repeat;
   background-position: top 0 right 0;
   margin: 1.625rem -0.47rem;
-
 }
 
 .background1 {
-  
   color: #7f8cff;
 }
 
 .input1 {
   height: 40px;
-  left: 0px;
-  top: 0px;
-  border: 1px solid #CFD8DC;
+  left: 0;
+  top: 0;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
+
   /* margin-bottom: 0.5%; */
-  
 }
+
 .column {
-flex-direction: column;
+  flex-direction: column;
 }
 
 .message {
   height: 170px;
-  left: 0px;
-  top: 0px;
-  border-radius: 8px; 
+  left: 0;
+  top: 0;
+  border-radius: 8px;
 }
 
 .text1 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   padding: 2% 0;
   margin-bottom: 3%;
+
   /* or 140% */
-  
+
   text-align: center;
-  
+
   /* Primary/B50 */
-  
-  color: #EBEBFF;
+
+  color: #ebebff;
   align-self: center;
 }
 
 .contact4 {
-top: 4734px;
-margin-bottom: 10%;
+  top: 4734px;
+  margin-bottom: 10%;
 
 
-/* Header / 2 */
+  /* Header / 2 */
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-align-self: center;
-margin-top: 20%;
-/* or 130% */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  align-self: center;
+  margin-top: 20%;
 
-/* Neutrals/N0 */
+  /* or 130% */
 
-color: #FFFFFF;
+  /* Neutrals/N0 */
+
+  color: #fff;
 }
-
