@@ -1,20 +1,28 @@
-body {
-  padding: 0;
-  margin: 0;
-}
-
 .container {
-  background-color: #e5e5e5;
-  width: 100%;
+  /* background-color: #e5e5e5; */
+  width: 389px; 
 }
 
 header {
   background-color: #fff;
-<<<<<<< HEAD
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 2.5rem 0 1rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+a{
+  color: #6070FF;
 }
 
-.main-nav {
-  display: flex;
+.intro-description{
+  padding-top: 6rem;
+  font-size: 30px;
+  
+}
+
+/* .main-nav {
   justify-content: space-between;
   align-items:flex-end;
   margin: 0 20rem;
@@ -22,12 +30,7 @@ header {
   background-size: 100vw;
   margin-right: 90%;
   align-self: flex-end;
-=======
-  display: flex;
-  justify-content: space-between;padding: 0 1.5rem;
-  align-items: center;
->>>>>>> 680c09610ae9b5698b36a855e74bc6d1b0e0e93d
-}
+} */
 
 .flex {
   display: flex;
@@ -37,12 +40,12 @@ a {
   text-decoration: none;
 }
 
-#introduction {
+main {
   position: relative;
   background-color: #fff;
   background-image: url("../img/mobile.png");
   background-repeat: no-repeat;
-  margin: 1.625rem 0;
+  margin: 1.625rem -0.45rem;
   height: 36.697rem;
   border-bottom-left-radius: 80px;
 }
@@ -101,7 +104,7 @@ main li {
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-  width: 95%;
+  width: 375px;
 }
 
 .content {
@@ -139,7 +142,7 @@ main li {
   order: 1;
   flex-grow: 0;
   margin: 12px 16px;
-  width: auto;
+  width: 327px;
   height: 552px;
 }
 
@@ -247,7 +250,7 @@ button:active {
 
 #about-me {
   flex-direction: column;
-  width: 100%;
+  width: 375px;
   background: #fff;
   border-top-right-radius: 80px;
   margin-top: 114px;
@@ -327,7 +330,6 @@ h2 {
 }
 
 #contact-Form {
-<<<<<<< HEAD
   /* background-image: url(img/Background-Contact-Form.png); */
   /* background-repeat: no-repeat; */
   padding: 24px;
@@ -339,15 +341,8 @@ h2 {
   background-image: url(img/contact\ form\ shapes-mobileReal.png);
   background-repeat: no-repeat;
   background-position: top 0 right 0;
-  margin: 1.625rem 0;
+  margin: 1.625rem -0.47rem;
 
-=======
-  background-color: #fff;
-  background-image: url(img/Background-Contact-Form.png);
-  background-repeat: no-repeat;
-  padding: 0 10%;
-  background-size: cover;
->>>>>>> 680c09610ae9b5698b36a855e74bc6d1b0e0e93d
 }
 
 .background1 {
@@ -391,18 +386,13 @@ flex-direction: column;
   
   color: #EBEBFF;
   align-self: center;
-  margin-bottom: 10%;
 }
 
 .contact4 {
-<<<<<<< HEAD
 top: 4734px;
 margin-bottom: 10%;
 
 
-=======
-margin-bottom: 1%;
->>>>>>> 680c09610ae9b5698b36a855e74bc6d1b0e0e93d
 /* Header / 2 */
 
 font-family: 'Poppins';
@@ -416,6 +406,6 @@ margin-top: 20%;
 
 /* Neutrals/N0 */
 
-color: #fff;
+color: #FFFFFF;
 }
 
