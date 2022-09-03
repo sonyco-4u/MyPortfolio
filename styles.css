@@ -1122,7 +1122,7 @@ a .btn-two {
   }
 
   button:hover {
-    transition: background, 1s, ease-out, 2s;
+    transition: ease-in, 1s, ease-out, 2s;
   }
 
   .contact-form p:hover {
@@ -1137,5 +1137,9 @@ a .btn-two {
     100% {
       transform: rotate(360deg);
     }
+  }
+
+  .logo {
+    animation: myrotate 3s;
   }
 }
