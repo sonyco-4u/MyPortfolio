@@ -1112,9 +1112,6 @@ a .btn-two {
   .instruction {
     display: none;
   }
-  .project-card img {
-    transition: all 2s ease;
-  }
 
   .project-card img:hover {
     transform: scale(1.15);
@@ -1127,11 +1124,7 @@ a .btn-two {
   .project-card img {
     transition: all 2s ease;
   }
-
-  .project-card img:hover {
-    transform: scale(1.15);
-  }
-
+  
   .contact-form p:hover {
     transform: translate(10px);
   }
