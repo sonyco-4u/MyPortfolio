@@ -1120,13 +1120,13 @@ a .btn-two {
   .project-card img:hover {
     transform: scale(1.15);
   }
-  
- button:hover {
-   transition: background, 1s, ease-out, 2s;
+
+  button:hover {
+    transition: background, 1s, ease-out, 2s;
   }
 
   .contact-form p:hover {
-   transform: translate(10px);
+    transform: translate(10px);
   }
 
   @keyframes myrotate {
@@ -1138,9 +1138,4 @@ a .btn-two {
       transform: rotate(360deg);
     }
   }
-
-  .logo {
-   animation: myrotate 3s;
-  }
 }
- 
