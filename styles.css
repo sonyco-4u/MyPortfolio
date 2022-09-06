@@ -1111,4 +1111,34 @@ a .btn-two {
   .instruction {
     display: none;
   }
+
+  .project-card img {
+    transition: all 2s ease;
+  }
+
+  .project-card img:hover {
+    transform: scale(1.15);
+  }
+
+  button:hover {
+    transition: ease-in, 1s, ease-out, 2s;
+  }
+
+  .contact-form p:hover {
+    transform: translate(10px);
+  }
+
+  @keyframes myrotate {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .logo {
+    animation: myrotate 3s;
+  }
 }
