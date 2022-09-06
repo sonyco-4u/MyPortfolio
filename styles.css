@@ -1111,7 +1111,6 @@ a .btn-two {
   .instruction {
     display: none;
   }
-<<<<<<< HEAD
 
   .project-card img {
     transition: all 2s ease;
@@ -1142,6 +1141,4 @@ a .btn-two {
   .logo {
     animation: myrotate 3s;
   }
-=======
->>>>>>> master
 }
