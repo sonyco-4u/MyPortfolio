@@ -14,7 +14,7 @@ This is a simple web develoment project for microverse created using simple HTML
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://sonyco-4u.github.io/Portfolio-microverse2/)
+[Live Demo Link](https://sonyco-4u.github.io/Portfolio-microverse2)
 
 ## Getting Started
 
