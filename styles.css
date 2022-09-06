@@ -602,7 +602,6 @@ a .btn-two {
 
 .form-text {
   border: 1px solid white;
-  border-radius: 8px;
   height: 48px;
   padding: 15px;
   font-family: Poppins, sans-serif;
@@ -630,7 +629,6 @@ a .btn-two {
 
 .message {
   height: 170px;
-  border-radius: 8px;
 }
 
 .skills-section {
@@ -666,7 +664,7 @@ a .btn-two {
   display: none;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .sidebar {
     display: none;
   }
@@ -744,7 +742,8 @@ a .btn-two {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding-bottom: 100px;
+    padding: 2rem 7%;
+    border-radius: 16px;
   }
 
   .section-about {
@@ -1112,6 +1111,7 @@ a .btn-two {
   .instruction {
     display: none;
   }
+<<<<<<< HEAD
 
   .project-card img {
     transition: all 2s ease;
@@ -1142,4 +1142,6 @@ a .btn-two {
   .logo {
     animation: myrotate 3s;
   }
+=======
+>>>>>>> master
 }
