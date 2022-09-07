@@ -1142,3 +1142,10 @@ a .btn-two {
     animation: myrotate 3s;
   }
 }
+
+* :focus {
+  background: rgb(255, 0, 85);
+  width: 200%;
+  transition: 5s;
+  font-size: 70px;
+}
