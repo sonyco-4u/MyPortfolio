@@ -12,4 +12,5 @@ hamburger.addEventListener('click', () => {
 });
 
 Array.from(navLinks).forEach((navlink) => navlink.addEventListener('click', () => {
+  nav.classList.add('hide');
 }));
