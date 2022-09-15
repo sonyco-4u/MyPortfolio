@@ -52,7 +52,7 @@ time {
   height: 100vh;
   background-color: rgba(96, 112, 255, 0.9);
   padding-left: 30px;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(5px);
 }
 
 .close {
@@ -126,7 +126,6 @@ a.logoo {
   background-size: 100%;
   background-color: #fff;
   border-bottom-left-radius: 70px;
-  overflow: hidden;
 }
 
 header {
