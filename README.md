@@ -2,22 +2,30 @@
 
 My Microverse Portfolio
 
-My Portfolio
+> My Portfolio
+> This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage.
 
 ## Built With
 
-- HTML, CSS, FIGMA, JavaScript
+- HTML
+- CSS
+- FIGMA
+- JavaScript
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://bushido-brown.github.io/My-Portfolio2/)
+[Live Demo Link](https://sonyco-4u.github.io/Portfolio-microverse2)
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps:
+**Instructions on how to access my project locally.**
+To Access my project locally please follow the following instructions;
 
-- Clone the repository to your local machine
-- Run the program
+1. Enter this url: https://github.com/sonyco-4u/Portfolio-microverse2/pull/4 in your web browser.
+2. Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
+3. Select download Zip option from drop down menu.
+4. Once the download is complete you will be able to access my project locally.
+   Here is my repository link: https://github.com/sonyco-4u/Portfolio-microverse2.git
 
 ### Basic Knowledge in HTML and CSS
 
@@ -31,13 +39,13 @@ To get a local copy up and running follow these simple example steps:
 
 ### Deployment
 
-## Tochukwu Orizu
+## Ezema Anthony Sunday
 
-👤 Tochukwu Orizu
+👤 Ezema Anthony Sunday
 
-- GitHub: [@Busido-brown](https://github.com/Busido-brown)
-- Twitter: [@tuzyorizu](https://twitter.com/tuzyorizu)
-- LinkedIn: [TochukwuOrizu](https://linkedin.com/in/TochukwuOrizu)
+- GitHub: [@sonyco-4u](https://github.com/sonyco-4u)
+- Twitter: [@EZEMASUN](https://twitter.com/EZEMASUN)
+- LinkedIn: [ezema-anthony-sunday](https://www.linkedin.com/in/ezema-anthony-sunday-9180a3157)
 
 ## 🤝 Contributing
 
@@ -57,4 +65,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
