@@ -1,183 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles/style.css" />
-    <script
-      src="https://kit.fontawesome.com/7ec004c2c1.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Anthony's Portfolio</title>
-  </head>
-  <body>
-    <div class="container">
-      <header class="header-section">
-        <nav class="navbar">
-          <a href="#" class="logoo">Ezema Anthony</a>
-          <div class="place hide">
-            <span class="close"><img src="./img/close.png" alt="#" /></span>
-            <ul class="nav-menu">
-              <li class="nav-item">
-                <a href="#portfolio" class="nav-link">Portfolio</a>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Anthony's Portfolio</title>
+</head>
+
+<body>
+  <header class="white">
+    <a class="logo" href="#">Ezema Anthony</a>
+    <nav class="nav-bar">
+      <a class="bars" href="#"><img src="images/menu.png" alt="menu navbar"></a>
+    </nav>
+    <nav class="menu-desktop">
+      <ul>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#about-myself">About</a></li>
+        <li><a href="#contacts">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="sidebar">
+    <img src="/images/cancel.png" alt="close" class="cancel cancel-styling">
+    <div class="sidebar-menu">
+      <a href="#work" class="anchor-link">Portfolio</a>
+      <a href="#about-myself" class="anchor-link">About</a>
+      <a href="#contacts" class="anchor-link">Contact</a>
+    </div>
+  </section>
+  <section class="modal">
+    <button class="cancels" type="button">&times;</button>
+    <div class="modal-inner">
+    </div>
+  </section>
+  <main>
+    <section class="first-section">
+      <div class="text">
+        <h1 class="salutation">
+          I'm Anthony,<br>Glad to see you!
+        </h1>
+        <p class="paragraph1">I’m a software developer! I can help you build a product , feature or website Look through
+          some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to
+          contact me.</p>
+
+        <h3 class="lets-connect"> LET'S CONNECT</h3>
+
+        <ul class="social-media">
+          <li><a href="#"><img src="./images/twitter.png" alt="social"> </a></li>
+          <li><a href="#"><img src="./images/Linkedin.png" alt="social"></a></li>
+          <li><a href="#"><img src="./images/medium.png" alt="social"></a></li>
+          <li><a href="#"><img src="./images/github.png" alt="social"></a></li>
+          <li><a href="#"><img src="./images/angellist.png" alt="social"></a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="work-section" id="work">
+      
+    </section>
+    <section class="section-about" id="about-myself">
+        <div class="about-grid">
+            <div class="headline-text">
+              <h1>About Myself</h1>
+
+              <p class="paragraph1 para-about">Hello I’m a software developer! I can help you build a product , feature or website
+                Look through some of my work and experience! If you like what you see and have a
+                project you need coded, don’t hestiate to contact me.</p>
+              <h3 class="lets-connect"> LET'S CONNECT</h3>
+
+              <ul class="social-media getmyr">
+                <li><a href="#"> <img src="./images/twitter.png" alt="social"> </a></li>
+                <li><a href="#"> <img src="./images/Linkedin.png" alt="social"></a></li>
+                <li><a href="#"> <img src="./images/medium.png" alt="social"></a></li>
+                <li><a href="#"> <img src="./images/github.png" alt="social"></a></li>
+                <li><a href="#"> <img src="./images/angellist.png" alt="social"></a></li>
+              </ul>
+              <br>
+              <button class="btn-one btn-resume" type="button">Get My Resume</button>
+          </div>
+          <div class="skills-section">
+            <div class="lang lang-2">
+              <h3 class="lang-font">Languages</h3>
+              <a href="#"><img class="icons" src="images/down-arrow.png" alt="arrow"></a>
+            </div>
+            <ul class="langlist"> 
+              <li class="language">
+                <img src="images/jscript.png" alt="js">
+                <h3 class="lang-text">JavaScript</h3>
               </li>
-              <li class="nav-item">
-                <a href="#about" class="nav-link">About</a>
+              <li class="language">
+                <img src="images/html.png" alt="HTML">
+                <h3 class="lang-text">HTML</h3>
               </li>
-              <li class="nav-item">
-                <a href="#contact" class="nav-link">Contact</a>
+              <li class="language">
+                <img src="images/css.png" alt="CSS">
+                <h3 class="lang-text">CSS</h3>
               </li>
             </ul>
-          </div>
-          <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-        </nav>
-      </header>
-
-      <section class="introduction">
-        <div class="intro">
-          <h1 class="font">
-            I’m Anthony<br />
-            Glad to see you!
-          </h1>
-          <p class="profile font">
-            I’m a software developer! I can help you build a product , feature
-            or website Look through<br />
-            some of my work and experience! If you like what you see and have a
-            project you need<br />
-            coded, don’t hestiate to contact me.
-          </p>
-          <a href="#" class="connect font">LET'S CONNECT</a>
-          <div class="social">
-            <a href="#" class="social-links"
-              ><img src="img/Icons/Twitter.png" alt="twitter icon"
-            /></a>
-            <a href="#" class="social-links"
-              ><img src="img/Icons/Linkedin-icon.png" alt="Linkedin-icon"
-            /></a>
-            <a href="#" class="social-links"
-              ><img src="img/Icons/M.png" alt="medium-icon"
-            /></a>
-            <a href="#" class="social-links"
-              ><img src="img/Icons/Github.png" alt="Github-icon"
-            /></a>
-            <a href="#" class="social-links"
-              ><img src="img/Icons/hands.png" alt="hand-icon"
-            /></a>
-          </div>
-        </div>
-      </section>
-      <div class="works" id="portfolio"></div>
-      <div class="about-me" id="about">
-        <article class="showcase-partition about-me-text part-2">
-          <h2 class="font">About <br />Myself</h2>
-          <p class="font">
-            Hello I’m a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don’t
-            hestiate to contact me.
-          </p>
-          <a href="#" class="connect font">LET'S CONNECT</a>
-          <div class="">
-            <a href="#" class="social-links"
-              ><img src="img/Icons/Twitter.png" alt="'twitter icon"
-            /></a>
-            <a href="#" class="social-links"
-              ><img src="img/Icons/Linkedin-icon.png" alt="linkedIn icon"
-            /></a>
-            <a href="#" class="social-links"
-              ><img src="img/Icons/M.png" alt="medium icon"
-            /></a>
-            <a href="#" class="social-links"
-              ><img src="img/Icons/Github.png" alt="github icon"
-            /></a>
-            <a href="#" class="social-links"
-              ><img src="img/Icons/hands.png" alt="handsign icon"
-            /></a>
-          </div>
-          <button type="submit">Get My Resume</button>
-        </article>
-        <div class="showcase-partition part-2">
-          <div class="pro-skills">
-            <a href="#" class="font main-skill key-area more">Langauges</a>
-            <div class="nested">
-              <a href="#" class="font main-skill js-icon">Javascript</a>
-              <a href="#" class="font main-skill html-icon">HTML</a>
-              <a href="#" class="font main-skill css-icon">CSS</a>
+            <div class="lang lang-2 lang3">
+              <h3 class="lang-font">Frameworks</h3>
+              <a href="#"><img class="icons" src="images/right-arrow.png" alt="arrow"></a>
             </div>
-            <a href="" class="font main-skill key-area next">Frameworks</a>
-            <a href="" class="font main-skill key-area next">Skills</a>
-          </div>
+            <div class="lang lang-2 lang3">
+              <h3 class="lang-font">Skills</h3>
+              <a href="#"><img class="icons" src="images/right-arrow.png" alt="arrow"></a>
+            </div>
         </div>
       </div>
-
-      <!-- contact form -->
-      <div class="contact-page" id="contact">
-        <section class="background-one">
-          <h2 class="contact-page-title font">Contact me</h2>
-          <p class="contact-page-info">
-            If you have an application you are interested in<br />
-            developing, a feature that you need built or a project<br />
-            that needs coding. I’d love to help with it
-          </p>
-          <form
-            class="contact flex"
-            novalidate
-            action="https://formspree.io/f/xrgjaknz"
-            name="contactForm"
-            method="post"
-            id="upper"
-          >
-            <label for="name">Name</label>
-            <input
-              type="text"
-              class="font"
-              id="name"
-              name="user_name"
-              placeholder="Type your name here"
-              maxlength="30"
-              required
-            />
-            <label for="email">Email</label>
-            <input
-              type="email"
-              class="font"
-              id="email"
-              name="user_email"
-              placeholder="Type your email here"
-              required
-            />
-            <label for="message">Write Message</label>
-            <textarea
-              id="message"
-              class="font"
-              name="user_message"
-              placeholder="Write your message here"
-              maxlength="500"
-              required
-            ></textarea>
-            <p id="email-error" class="error-message">
-              Your email should be written in lower case.
-            </p>
-            <button type="submit" id="btn">Get in touch</button>
-          </form>
-          <div id="contact-page-scroll"></div>
-        </section>
-      </div>
+    </section>
+    <section class="contact-section" id="contacts">
+      <div class="contact-form">
+      <h2 class="con-title">Contact me</h2>
+      <p class="con-paragraph">
+        If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
+      </p>
+      <form action="https://formspree.io/f/mnqlovzq" method="POST" class="con-form">
+        <input type="text" name="name" id="names" placeholder="Name" maxlength="30" class="form-text" required>
+        <input type= "email" name="email" placeholder= "Please enter your Email" class="form-text" id="mail" required>
+        <small class="error-message"></small>
+        <textarea id="msg" name="message" placeholder="Write your message here" cols="20" rows="10" maxlength="500"
+          class="form-text message" required></textarea>
+        <button class="con-but" type="submit">Get in touch</button> 
+      </form>
     </div>
-    <div class="blue-bg"></div>
-    <script src="script.js"></script>
-  </body>
-</html>
+  </section>
+  </main>
+  <script src="app.js"></script>
+</body>
