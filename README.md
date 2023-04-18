@@ -16,7 +16,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://sonyco-4u.github.io/Portfolio-microverse2/)
+[Live Demo Link](https://sonyco-4u.github.io/Portfolio-microverse/)
 
 ## Getting Started
 
