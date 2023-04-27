@@ -9,6 +9,10 @@ const cancelModal = document.querySelector('.cancels');
 const modal = document.querySelector('.modal');
 const modalInner = document.querySelector('.modal-inner');
 const width = window.innerWidth;
+const scriptURL =
+  'https://script.google.com/macros/s/AKfycbyp9Eeys3CK6h1u_yvtyqZIkQN3-cqNKR0bWl3nuPSNwMoeZFPATQW-v8nZnvzo_GT7ug/exec';
+const form = document.forms['submit-to-google-sheet'];
+const msg = document.getElementById('msg');
 
 const cards = [
   {
@@ -69,36 +73,42 @@ function grab(e) {
   return document.getElementById(e);
 }
 
-const Openpopup = ({
-  name,
-  description,
-  featuredImage,
-  desktopImage,
-  technologies,
-  linktoliveversion,
-  linktosource,
-  option,
-  optionMobile,
-}) => () => {
-  let displayModal = '';
-  modal.classList.add('show-modal');
+const Openpopup =
+  ({
+    name,
+    description,
+    featuredImage,
+    desktopImage,
+    technologies,
+    linktoliveversion,
+    linktosource,
+    option,
+    optionMobile,
+  }) =>
+  () => {
+    let displayModal = '';
+    modal.classList.add('show-modal');
 
-  displayModal += `
+    displayModal += `
          <div class="modal-head">
           <h3 class="modal-title">${name}</h3>
          </div>
          <ul class="card-detail-header-container">
-             <li class="card-detail canopy-modal">${width > 1024 ? option[0] : optionMobile[0]
-}</li>
-             <li class="card-detail canopy-modal option-modal"><span class="circle-desktop"></span> ${width > 1024 ? option[1] : optionMobile[1]
-}</li>
-             <li class="card-detail canopy-modal option-modal"><span class="circle-desktop"></span>${width > 1024 ? option[2] : optionMobile[2]
-} </li>
+             <li class="card-detail canopy-modal">${
+               width > 1024 ? option[0] : optionMobile[0]
+             }</li>
+             <li class="card-detail canopy-modal option-modal"><span class="circle-desktop"></span> ${
+               width > 1024 ? option[1] : optionMobile[1]
+             }</li>
+             <li class="card-detail canopy-modal option-modal"><span class="circle-desktop"></span>${
+               width > 1024 ? option[2] : optionMobile[2]
+             } </li>
            </ul>
-            
+
           <div class='modal-img-container' >
-            <img src='${width > 1024 ? desktopImage : featuredImage
-}' alt="modal picture" class="modal-img">
+            <img src='${
+              width > 1024 ? desktopImage : featuredImage
+            }' alt="modal picture" class="modal-img">
           </div>
           <div class="modal-text">
             <div class="popup-description">
@@ -107,12 +117,15 @@ const Openpopup = ({
             <div>
               <ul class="anchor-div technologies-langu">
                 <li><a href="#">${technologies[0]}</a></li>
-                <li><a href="#">${technologies[1] ? technologies[1] : ''
-}</a></li>
-                <li><a href="#">${technologies[2] ? technologies[2] : ''
-}</a></li>
-                <li><a href="#">${technologies[3] ? technologies[3] : ''
-}</a></li>
+                <li><a href="#">${
+                  technologies[1] ? technologies[1] : ''
+                }</a></li>
+                <li><a href="#">${
+                  technologies[2] ? technologies[2] : ''
+                }</a></li>
+                <li><a href="#">${
+                  technologies[3] ? technologies[3] : ''
+                }</a></li>
               </ul>
               <div class="modal-buttons ">
                 <a href='${linktoliveversion}' class="source-btn mr source-desktop">
@@ -128,8 +141,8 @@ const Openpopup = ({
           </div>
       `;
 
-  modalInner.innerHTML = displayModal;
-};
+    modalInner.innerHTML = displayModal;
+  };
 
 function showWorks() {
   const works = [
@@ -312,7 +325,8 @@ anchorLink.forEach((anchor) => {
 });
 
 window.onload = showWorks();
-const saveData = (data) => localStorage.setItem('last_info', JSON.stringify(data));
+const saveData = (data) =>
+  localStorage.setItem('last_info', JSON.stringify(data));
 const formContainer = document.querySelector('.con-form');
 const mailInput = document.getElementById('mail');
 const messageError = document.querySelector('.error-message');
@@ -343,15 +357,15 @@ nameInput.addEventListener('input', () => {
   saveData(data);
 });
 
-formContainer.addEventListener('submit', (e) => {
+form.addEventListener('submit', (e) => {
   e.preventDefault();
-  data.names = formContainer.elements.name.value;
-  data.email = formContainer.elements.email.value;
-  data.msg = formContainer.elements.msg.value;
-  if (mailInput.value === mailInput.value.toLowerCase()) {
-    messageError.textContent = '';
-    saveData(data);
-  } else {
-    messageError.innerHTML = '*email must be in lower case <br> * form not sent';
-  }
+  fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+    .then((response) => {
+      msg.innerHTML = 'Thank you for your message!';
+      setTimeout(function () {
+        msg.innerHTML = '';
+      }, 5000);
+      form.reset();
+    })
+    .catch((error) => console.error('Error!', error.message));
 });

@@ -58,7 +58,7 @@
       </div>
     </section>
     <section class="work-section" id="work">
-      
+
     </section>
     <section class="section-about" id="about-myself">
         <div class="about-grid">
@@ -85,7 +85,7 @@
               <h3 class="lang-font">Languages</h3>
               <a href="#"><img class="icons" src="images/down-arrow.png" alt="arrow"></a>
             </div>
-            <ul class="langlist"> 
+            <ul class="langlist">
               <li class="language">
                 <img src="images/jscript.png" alt="js">
                 <h3 class="lang-text">JavaScript</h3>
@@ -116,14 +116,17 @@
       <p class="con-paragraph">
         If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
       </p>
-      <form action="https://formspree.io/f/mnqlovzq" method="POST" class="con-form">
+      <!-- <form action="https://formspree.io/f/mnqlovzq" method="POST" class="con-form"> -->
+      <form id="submit-to-google-sheet" method="POST" class="con-form">
         <input type="text" name="name" id="names" placeholder="Name" maxlength="30" class="form-text" required>
         <input type= "email" name="email" placeholder= "Please enter your Email" class="form-text" id="mail" required>
         <small class="error-message"></small>
         <textarea id="msg" name="message" placeholder="Write your message here" cols="20" rows="10" maxlength="500"
           class="form-text message" required></textarea>
-        <button class="con-but" type="submit">Get in touch</button> 
+        <button class="con-but" type="submit">Get in touch</button>
+        <span id="msg"></span>
       </form>
+
     </div>
   </section>
   </main>
