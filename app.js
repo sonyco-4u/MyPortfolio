@@ -73,6 +73,64 @@ function grab(e) {
   return document.getElementById(e);
 }
 
+// get the Twitter logo image element
+const angellistLogo = document.querySelector(
+  'img[src="./images/angellist.png"]'
+);
+
+// add an event listener to the image element
+angellistLogo.addEventListener('click', function () {
+  // open the Twitter link in a new tab
+  window.open('https://wellfound.com/u/ezema-anthony-sunday', '_blank');
+});
+
+// get the Twitter logo image element
+const githubLogo = document.querySelector('img[src="./images/github.png"]');
+
+// add an event listener to the image element
+githubLogo.addEventListener('click', function () {
+  // open the Twitter link in a new tab
+  window.open('https://github.com/sonyco-4u', '_blank');
+});
+
+// get the Twitter logo image element
+const mediumLogo = document.querySelector('img[src="./images/medium.png"]');
+
+// add an event listener to the image element
+mediumLogo.addEventListener('click', function () {
+  // open the Twitter link in a new tab
+  window.open('https://medium.com/@ezemaanthonysunday', '_blank');
+});
+
+// get the Twitter logo image element
+const linkedinLogo = document.querySelector('img[src="./images/Linkedin.png"]');
+
+// add an event listener to the image element
+linkedinLogo.addEventListener('click', function () {
+  // open the Twitter link in a new tab
+  window.open('https://www.linkedin.com/in/anthony-ezema/', '_blank');
+});
+
+// get the Twitter logo image element
+const twitterLogo = document.querySelector('img[src="./images/twitter.png"]');
+
+// add an event listener to the image element
+twitterLogo.addEventListener('click', function () {
+  // open the Twitter link in a new tab
+  window.open('https://twitter.com/EZEMASUN', '_blank');
+});
+
+// Get the button element
+const resumeButton = document.querySelector('.btn-resume');
+
+// Add an event listener to the button
+resumeButton.addEventListener('click', () => {
+  // Open the resume link
+  window.open(
+    'https://docs.google.com/document/d/1McFB8GjyvGLFCwKQpYuQRaZWGhnIbPUpDDIqQMtgGYQ/edit'
+  );
+});
+
 const Openpopup =
   ({
     name,
