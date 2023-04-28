@@ -244,7 +244,7 @@ main {
 .paragraph1 {
   margin: 10px 0;
   width: auto;
-  margin-left: 0;
+  margin-left: 20px;
 }
 
 .first-section {
@@ -709,7 +709,7 @@ a .btn-two {
     font-size: 15px;
     font-weight: 500;
     font-style: normal;
-    background-color: #fff;
+    background-color: #ffffff;
   }
 
   .menu-desktop li a:hover {
@@ -948,10 +948,11 @@ a .btn-two {
     font-size: 48px;
     font-weight: bold;
     line-height: 60px;
-    color: #091e42;
+    color: #0927ec;
     width: 50%;
-    align-items: center;
+    align-items:center;
     margin: 12px;
+    margin-left: 20px;
   }
 
   .paragraph1 {
