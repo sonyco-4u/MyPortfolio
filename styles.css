@@ -931,6 +931,27 @@ a .btn-two {
     flex-direction: row-reverse;
   }
 
+  #frameworks,
+  #skills {
+    border: none;
+    background: none;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    display: none;
+  }
+
+  .li-item {
+    background: rgb(52, 5, 237);
+    color: rgb(247, 243, 243);
+    width: 70%;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 5%;
+    font-size: 14px;
+    list-style: none;
+  }
+
   .contents {
     display: flex;
     flex-direction: column;

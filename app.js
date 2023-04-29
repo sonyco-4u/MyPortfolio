@@ -380,3 +380,23 @@ form.addEventListener('submit', (e) => {
     })
     .catch((error) => console.error('Error!', error.message));
 });
+
+function toggleFrameworks() {
+  const list = document.getElementById('frameworks');
+  if (list.style.display === 'none') {
+    list.style.display = 'block';
+  } else {
+    list.style.display = 'none';
+  }
+}
+toggleFrameworks();
+
+function toggleSkills() {
+  const list = document.getElementById('skills');
+  if (list.style.display === 'none') {
+    list.style.display = 'block';
+  } else {
+    list.style.display = 'none';
+  }
+}
+toggleSkills();

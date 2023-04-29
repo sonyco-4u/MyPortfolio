@@ -85,7 +85,7 @@
           <div class="skills-section">
             <div class="lang lang-2">
               <h3 class="lang-font">Languages</h3>
-              <a href="#"><img class="icons" src="images/down-arrow.png" alt="arrow"></a>
+              <!-- <a href="#"><img class="icons" src="images/down-arrow.png" alt="arrow"></a> -->
             </div>
             <ul class="langlist">
               <li class="language">
@@ -100,16 +100,44 @@
                 <img src="images/css.png" alt="CSS">
                 <h3 class="lang-text">CSS</h3>
               </li>
+              <!-- <li class="language">
+                <img src="images/ruby.png" alt="Ruby">
+                <h3 class="lang-text">Ruby</h3>
+              </li> -->
             </ul>
-            <div class="lang lang-2 lang3">
+            <!-- <div class="lang lang-2 lang3">
               <h3 class="lang-font">Frameworks</h3>
               <a href="#"><img class="icons" src="images/right-arrow.png" alt="arrow"></a>
+            </div> -->
+            <hr>
+            <div>
+                <button class="lang-but" onclick="toggleFrameworks()"><img class="arrow" alt="arrow" src="images/chebr195179n-hacia-la-derecha-24-1.webp">Frameworks</button>
+                <ul id="frameworks">
+                    <li class="li-item">React</li>
+                    <li class="li-item">Redux</li>
+                    <li class="li-item">NodeJs</li>
+                    <li class="li-item">Bootstrap</li>
+                    <li class="li-item">Rspec</li>
+                    <li class="li-item">Rails</li>
+                </ul>
             </div>
-            <div class="lang lang-2 lang3">
+            <hr>
+            <!-- <div class="lang lang-2 lang3">
               <h3 class="lang-font">Skills</h3>
               <a href="#"><img class="icons" src="images/right-arrow.png" alt="arrow"></a>
             </div>
-        </div>
+        </div> -->
+        <div>
+          <button class="lang-but" onclick="toggleSkills()"><img class="arrow" alt="arrow" src="images/chebr195179n-hacia-la-derecha-24-1.webp">Skills</button>
+          <ul id="skills">
+              <li class="li-item">Git</li>
+              <li class="li-item">GitHub</li>
+              <li class="li-item">PostgreSQL</li>
+              <li class="li-item">Remote Pair Programming</li>
+          </ul>
+      </div>
+      <hr>
+  </div>
       </div>
     </section>
     <section class="contact-section" id="contacts">
