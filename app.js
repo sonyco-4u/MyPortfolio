@@ -158,37 +158,37 @@ const Openpopup =
 function showWorks() {
   const works = [
     {
-      title: 'Tonic',
-      options: ['CANOPY', 'Back End Dev', '2015'],
+      title: 'Book My Ride',
+      options: ['Microverse', 'Remote', '2023'],
       imgMobile: 'images/photo1.png',
       imgDesktop: 'images/photo1dt.png',
       description:
-        'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        'Book my Ride, is a car rental application that provides users with the ability to reserve a car for a designated time frame.',
       descriptionD:
-        'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      languages: ` <li class="langu langu-a">html</li>
-      <li class="langu langu-b">css</li>
-      <li class="langu langu-c">javascript</li>
-      <li class="langu2">html</li>
-      <li class="langu2">css</li>
-      <li class="langu2">javascript</li>`,
+        'Book my Ride, is a car rental application that provides users with the ability to reserve a car for a designated time frame.',
+      languages: ` <li class="langu langu-a">Ruby on Rails</li>
+      <li class="langu langu-b">React</li>
+      <li class="langu langu-c">PostgreSQL</li>
+      <li class="langu2">Ruby on Rails</li>
+      <li class="langu2">React</li>
+      <li class="langu2">PostgreSQL</li>`,
     },
     {
-      title: 'Multi-post Stories',
-      options: ['FACEBOOK', 'Back End Dev', '2015'],
+      title: 'Space Traveller Hub',
+      options: ['Microverse', 'Remote', 'Teamwork'],
       imgMobile: 'images/photo2.png',
       imgDesktop: 'images/photo2dt.png',
       description:
-        'Experimental content creation features that allows users to add and existing story over the course of the day without spamming their friends.',
+        'Space Traveller hub is web application that works with real live data from the SpaceX API. The app is for a company that provides commercial and scientific space travel services.',
       descriptionD:
-        'A daily selection of privately personalized reads; no accounts or sign-ups required. ',
+        'Space Traveller hub is web application that works with real live data from the SpaceX API. The app is for a company that provides commercial and scientific space travel services.',
       languages: `<li class="langu">html</li>
-      <li class="langu">css</li>
-      <li class="langu">javascript</li>
+      <li class="langu">React</li>
+      <li class="langu">JavaScript</li>
       <li class="langu2">html</li>
-      <li class="langu2">Ruby on rails</li>
-      <li class="langu2">css</li>
-      <li class="langu2">javascript</li>`,
+      <li class="langu2">React</li>
+      <li class="langu2">JavaScript</li>
+      <li class="langu2">Redux</li>`,
     },
     {
       title: 'Facebook 360',
