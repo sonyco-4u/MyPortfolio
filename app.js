@@ -182,47 +182,45 @@ function showWorks() {
         'Space Traveller hub is web application that works with real live data from the SpaceX API. The app is for a company that provides commercial and scientific space travel services.',
       descriptionD:
         'Space Traveller hub is web application that works with real live data from the SpaceX API. The app is for a company that provides commercial and scientific space travel services.',
-      languages: `<li class="langu">html</li>
+      languages: `<li class="langu">HTML5</li>
       <li class="langu">React</li>
       <li class="langu">JavaScript</li>
-      <li class="langu2">html</li>
+      <li class="langu2">HTML5</li>
       <li class="langu2">React</li>
       <li class="langu2">JavaScript</li>
       <li class="langu2">Redux</li>`,
     },
     {
-      title: 'Facebook 360',
-      options: ['FACEBOOK', 'Full Stack Dev', '2015'],
+      title: 'Nigeria Fashion Show',
+      options: ['Microverse', 'Remote', 'Teamwork'],
       imgMobile: 'images/photo3.png',
       imgDesktop: 'images/photo3dt.png',
       description:
-        "Exploring the future of media in Facebook's first Virtual Reality place to discover and enjoy 360 photos and videos on Gear VR .",
+        'An online static website built for a Nigeria fashion skill acquisition show.',
       descriptionD:
-        'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      languages: `<li class="langu">html</li>
-      <li class="langu">css</li>
-      <li class="langu">javascript</li>
-      <li class="langu2">html</li>
-      <li class="langu2">Ruby on rails</li>
-      <li class="langu2">css</li>
-      <li class="langu2">javascript</li>`,
+        'An online static website built for a Nigeria fashion skill acquisition show.',
+      languages: `<li class="langu">HTML5</li>
+      <li class="langu">CSS3</li>
+      <li class="langu">JavaScript</li>
+      <li class="langu2">HTML5</li>
+      <li class="langu2">CSS3</li>
+      <li class="langu2">JavaScript</li>`,
     },
     {
-      title: 'Uber Navigation',
-      options: ['Uber', 'Lead Developer', '2018'],
+      title: 'Expense App',
+      options: ['Microverse', 'Remote', 'Teamwork'],
       imgMobile: 'images/photo4.png',
       imgDesktop: 'images/photo4dt.png',
       description:
-        'A smart assistant to make driving mode safe, efficient, and fun by unlocking your most expensive computer: your car.',
+        'Expense App is a mobile web application where you can manage your budget.',
       descriptionD:
-        'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      languages: `<li class="langu">html</li>
-      <li class="langu">css</li>
-      <li class="langu">javascript</li>
-      <li class="langu2">html</li>
-      <li class="langu2">Ruby on rails</li>
-      <li class="langu2">css</li>
-      <li class="langu2">javascript</li>`,
+        'Expense App is a mobile web application where you can manage your budget.',
+      languages: `<li class="langu">PostgreSQL</li>
+      <li class="langu">CSS3</li>
+      <li class="langu">Ruby on Rails</li>
+      <li class="langu2">PostgreSQL</li>
+      <li class="langu2">CSS3</li>
+      <li class="langu2">Ruby on Rails</li>`,
     },
   ];
 
