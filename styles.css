@@ -208,7 +208,7 @@ main {
   padding-left: 22px;
   line-height: 20px;
   color: #6070ff;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 .social-media {
@@ -709,7 +709,7 @@ a .btn-two {
     font-size: 15px;
     font-weight: 500;
     font-style: normal;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
   }
 
   .menu-desktop li a:hover {
@@ -757,6 +757,11 @@ a .btn-two {
     margin-right: auto;
     margin-top: 0;
     padding-top: 0;
+    display: flex;
+    position: fixed;
+    background-color: #dcdde0;
+    border-radius: 20px;
+    width: 100%;
   }
 
   .nav-bar {
