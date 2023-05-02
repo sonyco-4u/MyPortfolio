@@ -397,7 +397,7 @@ main {
   position: static;
   width: auto;
   height: auto;
-  font-size: 17px;
+  /* font-size: 17px; */
   line-height: 24px;
   color: #fbf6f6;
   margin: 12px 21px;
