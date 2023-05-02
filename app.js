@@ -57,16 +57,17 @@ const cards = [
   },
   {
     key: 3,
-    name: 'Expense App',
+    name: 'Financial Metrics',
     option: ['Microverse', 'Remote', 'Teamwork'],
     optionMobile: ['Microverse', 'Remote', 'Teamwork'],
     description:
-      'Expense App is a mobile web application where you can manage your budget.',
+      'Financial Metrics is a mobile web application to check a list of metrics (numeric values).',
     featuredImage: './images/photo4dt.png',
     desktopImage: './images/photo4dt.png',
-    technologies: ['CSS3', 'Ruby on Rails', 'PostgreSQL'],
-    linktoliveversion: 'https://myexpenses.onrender.com/',
-    linktosource: 'https://github.com/sonyco-4u/budget-app.git',
+    technologies: ['CSS3', 'HTML5', 'React', 'JavaScript'],
+    linktoliveversion:
+      'https://deploy-preview-4--fastidious-yeot-7f3b0f.netlify.app/',
+    linktosource: 'https://github.com/sonyco-4u/financial-metrics.git',
   },
 ];
 
@@ -208,20 +209,20 @@ function showWorks() {
       <li class="langu2">JavaScript</li>`,
     },
     {
-      title: 'Expense App',
+      title: 'Financial Metrics',
       options: ['Microverse', 'Remote', 'Teamwork'],
       imgMobile: 'images/photo4.png',
       imgDesktop: 'images/photo4dt.png',
       description:
-        'Expense App is a mobile web application where you can manage your budget.',
+        'Financial Metrics is a mobile web application to check a list of metrics (numeric values).',
       descriptionD:
-        'Expense App is a mobile web application where you can manage your budget.',
-      languages: `<li class="langu">PostgreSQL</li>
+        'Financial Metrics is a mobile web application to check a list of metrics (numeric values).',
+      languages: `<li class="langu">HTML5</li>
       <li class="langu">CSS3</li>
-      <li class="langu">Ruby on Rails</li>
-      <li class="langu2">PostgreSQL</li>
+      <li class="langu">React</li>
+      <li class="langu2">HTML5L</li>
       <li class="langu2">CSS3</li>
-      <li class="langu2">Ruby on Rails</li>`,
+      <li class="langu2">React</li>`,
     },
   ];
 
@@ -399,3 +400,13 @@ function toggleSkills() {
   }
 }
 toggleSkills();
+
+function toggleLanguages() {
+  const list = document.getElementById('languages');
+  if (list.style.display === 'none') {
+    list.style.display = 'block';
+  } else {
+    list.style.display = 'none';
+  }
+}
+toggleLanguages();
