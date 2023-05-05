@@ -249,6 +249,7 @@ main {
   margin: 10px 0;
   width: auto;
   margin-left: 20px;
+  /* filter: drop-shadow(3px 3px 1px lightgrey); */
 }
 
 .first-section {
