@@ -375,9 +375,9 @@ main {
 
 .canopy {
   font-family: poppins, sans-serif;
-  color: #344563;
+  color: #7a869a;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 13px;
   line-height: 16px;
   position: static;
   width: 55px;
@@ -1094,8 +1094,8 @@ a .btn-two {
   .dcanopy2_face,
   .dcanopy2_facebook {
     font-family: poppins, sans-serif;
-    color: #344563;
-    font-weight: 500;
+    color: #7a869a;
+    font-weight: 600;
     font-size: 18px;
     line-height: 24px;
     position: static;
