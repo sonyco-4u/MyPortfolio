@@ -18,8 +18,8 @@ const cards = [
   {
     key: 0,
     name: 'Book My Ride',
-    option: ['Microverse', 'Remote', '2023'],
-    optionMobile: ['Microverse', 'Remote', '2023'],
+    option: ['Automobile', 'Remote', '2023'],
+    optionMobile: ['Automobile', 'Remote', '2023'],
     description:
       'Book my Ride, is a car rental application that provides users with the ability to reserve a car for a designated time frame.',
     featuredImage: './images/photo1dt.png',
@@ -31,8 +31,8 @@ const cards = [
   {
     key: 1,
     name: 'Space Traveller Hub',
-    option: ['Microverse', 'Remote', 'Teamwork'],
-    optionMobile: ['Microverse', 'Remote', 'Teamwork'],
+    option: ['Explore', 'Remote', 'Teamwork'],
+    optionMobile: ['Explore', 'Remote', 'Teamwork'],
     description:
       'Space Traveller hub is web application that works with real live data from the SpaceX API. The app is for a company that provides commercial and scientific space travel services.',
     featuredImage: './images/photo2dt.png',
@@ -45,8 +45,8 @@ const cards = [
   {
     key: 2,
     name: 'Nigeria Fashion Show',
-    option: ['Microverse', 'Remote', 'Teamwork'],
-    optionMobile: ['Microverse', 'Remote', 'Teamwork'],
+    option: ['Exhibition', 'Remote', 'Teamwork'],
+    optionMobile: ['Exhibition', 'Remote', 'Teamwork'],
     description:
       ' An online static website built for a Nigeria fashion skill acquisition show.',
     featuredImage: './images/photo3dt.png',
@@ -58,8 +58,8 @@ const cards = [
   {
     key: 3,
     name: 'Financial Metrics',
-    option: ['Microverse', 'Remote', 'Teamwork'],
-    optionMobile: ['Microverse', 'Remote', 'Teamwork'],
+    option: ['Enterprise', 'Remote', 'Teamwork'],
+    optionMobile: ['Enterprise', 'Remote', 'Teamwork'],
     description:
       'Financial Metrics is a mobile web application to check a list of metrics (numeric values).',
     featuredImage: './images/photo4dt.png',
@@ -158,7 +158,7 @@ function showWorks() {
   const works = [
     {
       title: 'Book My Ride',
-      options: ['Microverse', 'Remote', '2023'],
+      options: ['Automobile', 'Remote', '2023'],
       imgMobile: 'images/photo1.png',
       imgDesktop: 'images/photo1dt.png',
       description:
@@ -174,7 +174,7 @@ function showWorks() {
     },
     {
       title: 'Space Traveller Hub',
-      options: ['Microverse', 'Remote', 'Teamwork'],
+      options: ['Explore', 'Remote', 'Teamwork'],
       imgMobile: 'images/photo2.png',
       imgDesktop: 'images/photo2dt.png',
       description:
@@ -191,7 +191,7 @@ function showWorks() {
     },
     {
       title: 'Nigeria Fashion Show',
-      options: ['Microverse', 'Remote', 'Teamwork'],
+      options: ['Exhibition', 'Remote', 'Teamwork'],
       imgMobile: 'images/photo3.png',
       imgDesktop: 'images/photo3dt.png',
       description:
@@ -207,7 +207,7 @@ function showWorks() {
     },
     {
       title: 'Financial Metrics',
-      options: ['Microverse', 'Remote', 'Teamwork'],
+      options: ['Enterprise', 'Remote', 'Teamwork'],
       imgMobile: 'images/photo4.png',
       imgDesktop: 'images/photo4dt.png',
       description:
