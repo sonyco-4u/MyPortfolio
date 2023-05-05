@@ -138,11 +138,11 @@ const Openpopup =
                 }</a></li>
               </ul>
               <div class="modal-buttons ">
-                <a href='${linktoliveversion}' class="source-btn mr source-desktop">
+                <a href='${linktoliveversion}' class="source-btn mr source-desktop" target="_blank">
                   See Live
                   <img src="images/Live-icon.svg" class="iconlink" alt="live icon">
                 </a>
-                <a href='${linktosource}' class="source-btn mr">
+                <a href='${linktosource}' class="source-btn mr" target="_blank">
                   See Source
                 <img src="images/Github-icon.svg" class="iconlink" alt="Git hub">
                 </a>
