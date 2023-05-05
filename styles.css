@@ -170,8 +170,10 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: rgb(193, 199, 208);
   padding-top: 24px;
+  position: fixed;
+  width: 375px;
 }
 
 .text {
@@ -224,7 +226,7 @@ main {
 .anchor-div a {
   list-style-type: none;
   text-decoration: none;
-  color: #4472e7;
+  color: #f8f8f9;
   font-size: small;
 }
 
@@ -692,7 +694,7 @@ a .btn-two {
 }
 
 .technologies-langu li {
-  background-color: #ebebff;
+  background-color: #172b4d;
   padding: 10px;
   border-radius: 10px;
   font-weight: 500;
@@ -812,8 +814,7 @@ a .btn-two {
     padding-top: 0;
     display: flex;
     position: fixed;
-    background-color: #dcdde0;
-    border-radius: 20px;
+    background-color: rgb(193, 199, 208);
     width: 100%;
   }
 
@@ -925,14 +926,15 @@ a .btn-two {
   }
 
   .technologies-langu li {
-    background-color: #ebebff;
+    /* background-color: #ebebff; */
+    background-color: #130e4e;
     padding: 5px;
     border-radius: 10px;
     font-weight: 500;
     font-family: poppins, sans-serif;
     display: inline-block;
     justify-content: space-between;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     bottom: 105px;
     left: 445px;
   }
@@ -1117,10 +1119,11 @@ a .btn-two {
     margin-top: 15px;
   }
 
-  .anchor-div a {
+  .
+   {
     list-style-type: none;
     text-decoration: none;
-    color: #4472e7;
+    color: #f5f5f6;
     font-size: 10px;
   }
 

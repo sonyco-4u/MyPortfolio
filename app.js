@@ -136,9 +136,6 @@ const Openpopup =
                 <li><a href="#">${
                   technologies[2] ? technologies[2] : ''
                 }</a></li>
-                <li><a href="#">${
-                  technologies[3] ? technologies[3] : ''
-                }</a></li>
               </ul>
               <div class="modal-buttons ">
                 <a href='${linktoliveversion}' class="source-btn mr source-desktop">
