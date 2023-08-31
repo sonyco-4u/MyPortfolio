@@ -30,17 +30,17 @@ const cards = [
   },
   {
     key: 1,
-    name: 'Space Traveller Hub',
+    name: 'Kpando',
     option: ['Explore', 'Remote', 'Teamwork'],
     optionMobile: ['Explore', 'Remote', 'Teamwork'],
     description:
-      'Space Traveller hub is web application that works with real live data from the SpaceX API. The app is for a company that provides commercial and scientific space travel services.',
+      'Kpando is web application that works with real live data from the EEDC database. The app is for Enugu electricity distribution company customer record managment documentation that provides easy checks on customer details/location through the use of property id by the marketers and feeder/network manager.',
     featuredImage: './images/photo2dt.png',
     desktopImage: './images/photo2dt.png',
-    technologies: ['HTML5', 'React', 'JavaScript'],
-    linktoliveversion: 'https://euphonious-crumble-fca2d2.netlify.app/',
-    linktosource:
-      'https://github.com/sonyco-4u/space-travellers-hub-setup-kanban-board.git',
+    technologies: ['Typescript', 'React', 'node js'],
+    linktoliveversion: 'http://217.72.195.123:7000/',
+    linktosource: 'http://217.72.195.123:7000/' ,
+      // 'https://github.com/sonyco-4u/space-travellers-hub-setup-kanban-board.git',
   },
   {
     key: 2,
@@ -173,21 +173,20 @@ function showWorks() {
       <li class="langu2">PostgreSQL</li>`,
     },
     {
-      title: 'Space Traveller Hub',
+      title: 'Kpando',
       options: ['Explore', 'Remote', 'Teamwork'],
       imgMobile: 'images/photo2.png',
       imgDesktop: 'images/photo2dt.png',
       description:
-        'Space Traveller hub is web application that works with real live data from the SpaceX API. The app is for a company that provides commercial and scientific space travel services.',
+        'Kpando is a web application that works with real live data from the EEDC database. The app is for Enugu electricity distribution company customer record managment documentation that provides easy checks on customer details/location through the use of property id by the marketers and feeder/network manager.',
       descriptionD:
-        'Space Traveller hub is web application that works with real live data from the SpaceX API. The app is for a company that provides commercial and scientific space travel services.',
+        'Kpando is a web application that works with real live data from the EEDC database. The app is for Enugu electricity distribution company customer record managment documentation that provides easy checks on customer details/location through the use of property id by the marketers and feeder/network manager.',
       languages: `<li class="langu">HTML5</li>
       <li class="langu">React</li>
-      <li class="langu">JavaScript</li>
-      <li class="langu2">HTML5</li>
+      <li class="langu">Typescript</li>
       <li class="langu2">React</li>
-      <li class="langu2">JavaScript</li>
-      <li class="langu2">Redux</li>`,
+      <li class="langu2">Typescript</li>
+      <li class="langu2">node js</li>`,
     },
     {
       title: 'Nigeria Fashion Show',
