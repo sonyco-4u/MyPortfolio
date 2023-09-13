@@ -2,10 +2,10 @@
 
 # Project Name
 
-- My Microverse Portfolio
+- My Portfolio
 
 > My Portfolio
-> This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage.
+> This is a simple web develoment project for my portfolio created using simple HTML(Hyper text mark-up Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage.
 
 ## Built With
 
@@ -49,7 +49,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@sonyco-4u](https://github.com/sonyco-4u)
 - Twitter: [@EZEMASUN](https://twitter.com/EZEMASUN)
-- LinkedIn: [ezema-anthony-sunday](https://www.linkedin.com/in/ezema-anthony-sunday-9180a3157)
+- LinkedIn: [ezema-anthony-sunday](https://www.linkedin.com/in/anthony-ezema/)
 
 ## 🤝 Contributing
 
