@@ -57,11 +57,11 @@ const cards = [
   },
   {
     key: 3,
-    name: 'Financial Metrics',
+    name: 'EGC Wordpress Website',
     option: ['Enterprise', 'Remote', 'Teamwork'],
     optionMobile: ['Enterprise', 'Remote', 'Teamwork'],
     description:
-      'Financial Metrics is a mobile web application to check a list of metrics (numeric values).',
+      'EGC Wordpress Website is a dynamic website developed for Evoteck Geospatial Consult.',
     featuredImage: './images/photo4dt.png',
     desktopImage: './images/photo4dt.png',
     technologies: ['CSS3', 'HTML5', 'React', 'JavaScript'],
@@ -205,20 +205,20 @@ function showWorks() {
       <li class="langu2">JavaScript</li>`,
     },
     {
-      title: 'Financial Metrics',
+      title: 'EGC Wordpress Website',
       options: ['Enterprise', 'Remote', 'Teamwork'],
       imgMobile: 'images/photo4.png',
       imgDesktop: 'images/photo4dt.png',
       description:
-        'Financial Metrics is a mobile web application to check a list of metrics (numeric values).',
+        'EGC Wordpress Website is a dynamic website developed for Evoteck Geospatial Consult.',
       descriptionD:
-        'Financial Metrics is a mobile web application to check a list of metrics (numeric values).',
-      languages: `<li class="langu">HTML5</li>
-      <li class="langu">CSS3</li>
-      <li class="langu">React</li>
-      <li class="langu2">HTML5L</li>
-      <li class="langu2">CSS3</li>
-      <li class="langu2">React</li>`,
+        'EGC Wordpress Website is a dynamic website developed for Evoteck Geospatial Consult.',
+      languages: `<li class="langu">HTML</li>
+      <li class="langu">CSS</li>
+      <li class="langu">PHP</li>
+      <li class="langu2">HTML</li>
+      <li class="langu2">CSS</li>
+      <li class="langu2">PHP</li>`,
     },
   ];
 
