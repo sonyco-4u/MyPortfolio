@@ -64,10 +64,10 @@ const cards = [
       'EGC Wordpress Website is a dynamic website developed for Evoteck Geospatial Consult.',
     featuredImage: './images/photo4dt.png',
     desktopImage: './images/photo4dt.png',
-    technologies: ['CSS3', 'HTML5', 'React', 'JavaScript'],
+    technologies: ['CSS', 'HTML', 'PHP', 'JavaScript'],
     linktoliveversion:
-      'https://deploy-preview-4--fastidious-yeot-7f3b0f.netlify.app/',
-    linktosource: 'https://github.com/sonyco-4u/financial-metrics.git',
+      'https://evoteckgeospatialconsult.com/',
+    linktosource: 'https://github.com/sonyco-4u/Evoteck_Geospatial_Consult.git',
   },
 ];
 
